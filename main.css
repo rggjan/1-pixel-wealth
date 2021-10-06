@@ -349,18 +349,18 @@ h1 {
   min-width: 140px;
 }
 .lifetime .square {
-  width: 41.23px;
-  height: 41.23px;
+  width: 103.9px;
+  height: 103.9px;
   background-color: blue;
 }
 .healthcare .square {
-  width: 4.96px;
-  height: 4.96px;
+  width: 6.7px;
+  height: 6.7px;
   background-color: blue;
 }
 .amazon-year .square {
-  width: 5.4px;
-  height: 5.4px;
+  width: 3.5px;
+  height: 3.5px;
   background-color: blue;
 }
 .year-veteran .square {
@@ -414,12 +414,15 @@ h1 {
 }
 .beyonce .square {
   height: 350px;
-  width: 1142px;
+  width: 4572px;
   background-color: #406994;
 }
+.goldman .title {
+  width:  350px;
+}
 .goldman .square {
-  width: 223px;
-  height: 223px;
+  width: 182.2px;
+  height: 182.2px;
   background-color: #64A8F0;
 }
 .tim-cook .square {
@@ -428,18 +431,18 @@ h1 {
   background-color: #71889e;
 }
 .doctor .square {
-  width: 81.8px;
-  height: 81.8px;
+  width: 187.6px;
+  height: 187.6px;
   background-color: #0661b9;
 }
 .lawyer .square {
-  width: 63.2px;
-  height: 63.2px;
+  width: 160px;
+  height: 160px;
   background-color: #00478a;
 }
 .hedgefund .square {
-  width: 289.8px;
-  height: 289.8px;
+  width: 269.8px;
+  height: 269.8px;
   background-color: #9daebf;
 }
 .line-chart .chart-outer {

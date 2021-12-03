@@ -17,9 +17,12 @@ h1 {
   width: 100%;
   margin-top: 100px;
 }
-
+em {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
 .title-screen h2 {
-    text-align: center;
+  text-align: center;
 }
 .scroll-this-way {
   align-self: flex-end;
@@ -71,57 +74,6 @@ h1 {
   overflow: visible;
   display: inline-block;
 }
-.center-sticky {
-  position: sticky;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-.navigation {
-  position: fixed;
-  bottom: 15px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  display: flex;
-}
-.navigation .button {
-  color: rgba(0,0,0,0);
-  width: 20px;
-  display: block;
-  height: 20px;
-  border-radius: 100%;
-  background-position: 5px;
-  background-color: #d8d8d8;
-  box-shadow: inset 1px 6px 12px #e2e2e2, inset -1px -10px 5px #a9a9a9, 1px 2px 1px #797979;
-  overflow: hidden;
-  margin: 4px;
-}
-.navigation .button-inner {
-  background-repeat: no-repeat;
-  background-size: 8px;
-  height: 100%;
-  background-position: 5px;
-}
-.navigation .prev-button .button-inner {
-  background-image: url(img/prev.svg);
-}
-.navigation .next-button .button-inner {
-  background-image: url(img/next.svg);
-  background-position: 7px 5px;
-}
-.navigation .home-button .button-inner {
-  background-image: url(img/house.svg);
-  background-size: 12px;
-  background-position: 4px 4px;
-}
-.navigation .about-button .button-inner {
-  color: #999999;
-  font-weight: bold;
-  text-decoration: none;
-  text-indent: 5px;
-  line-height: 22px;
-}
-
-
 .wealth-row {
   display: inline-flex;
 }
@@ -137,21 +89,9 @@ h1 {
   align-items: center;
   display: flex;
 }
-.title {
-  margin-bottom: 5px;
-}
 .billion .wealth > .wealth-title {
   flex-basis: 180px;
   position: static;
-}
-.four-hundred .wealth > .wealth-title {
-  flex-basis: 420px;
-}
-.four-hundred .infobox.intro {
-  margin-left: 0;
-  position: relative;
-  width: auto;
-  width: 10000px;
 }
 .wealth > .wealth-title {
   flex-basis: 1%;
@@ -169,13 +109,6 @@ h1 {
   margin-bottom: 5px;
   color: black;
   margin-top: 0;
-}
-.text-infobox .title,
-.infobox .chart {
-  max-width: 450px;
-}
-.infobox .chart img {
-  max-width: 100%;
 }
 .infobox .chart,
 .infobox .title-square-wrapper,
@@ -271,13 +204,16 @@ h1 {
 .column-infobox .sub-infobox {
   margin-bottom: 20px;
 }
+.thousand {
+    width: 100px
+}
 .one-thousand {
   width: 2px;
   height: 2px;
   margin-top: 5px;
 }
 .median {
-  width: 390px;
+  width: 350px;
 }
 .median .wealth {
   width: 17.72px;
@@ -362,7 +298,7 @@ h1 {
   height: 6.7px;
   background-color: blue;
 }
-.amazon-year .square {
+.migros-year .square {
   width: 3.5px;
   height: 3.5px;
   background-color: blue;
@@ -416,22 +352,22 @@ h1 {
   display: flex;
   width: auto;
 }
-.beyonce .square {
+.federer .square {
   height: 350px;
-  width: 4572px;
+  width: 4743px;
   background-color: #406994;
 }
-.goldman .title {
+.credit .title {
   width:  350px;
 }
-.goldman .square {
+.credit .square {
   width: 182.2px;
   height: 182.2px;
   background-color: #64A8F0;
 }
-.tim-cook .square {
-  width: 1785px;
-  height: 350px;
+.bobo .square {
+  width: 322.5px;
+  height: 322.5px;
   background-color: #71889e;
 }
 .doctor .square {

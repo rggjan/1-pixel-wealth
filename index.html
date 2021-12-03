@@ -3,21 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 
-  <title>Vermögen in der Schweiz</title>
-  <meta name="description" content="Inequality in the United States is out of control. Here we visualize the issue in a unique way." />
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@mkorostoff">
-  <meta name="twitter:creator" content="@mkorostoff">
-  <meta name="twitter:title" content="Wealth, shown to scale">
-  <meta name="twitter:description" content="Inequality in the United States is out of control. Here we visualize the issue in a unique way.">
-  <meta name="twitter:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
-
-  <meta property="og:title" content="Wealth, shown to scale" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Wealth inequality in the United States is out of control. Here we visualize the issue in a unique way." />
-  <meta property="og:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png" />
-
+  <title>Reichtum in Pixeln - Vermögen in der Schweiz</title>
   <link rel="stylesheet" type="text/css" href="main.css?version=1.9">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
@@ -30,11 +16,11 @@
         <h2>Vermögen in der Schweiz</h2>
         <div class="scroll-this-way">
           <span>Hier scrollen</span>
-          <div id="instructions" class="instructions">To scroll right, use shift + mousewheel. If you have a touchpad, swipe sideways.</div>
+          <div id="instructions" class="instructions">Wische mit dem Touchpad nach rechts, oder scrolle mit shift + Mausrad.</div>
         </div>
       </div>
-      <div class="wealth-wrapper">
-        <h2 class="wealth-title">CHF&nbsp;1’000</h2>
+      <div class="wealth-wrapper thousand">
+        <h2 class="wealth-title">1’000 Fr.</h2>
         <div class="wealth one-thousand"></div>
         <div class="arrow">
           <svg viewBox="668 -8 14 70" width="14" height="70">
@@ -44,7 +30,7 @@
       </div>
 
       <div class="wealth-wrapper median">
-        <h2 class="wealth-title">&nbsp;78'456.- <span class="explainer">(Medianeinkommen Brutto CH)</span></h2>
+        <h2 class="wealth-title">78'456 Fr. <span class="explainer">(Medianeinkommen Brutto CH)</span></h2>
         <!-- https://www.bfs.admin.ch/bfs/de/home/statistiken/arbeit-erwerb/loehne-erwerbseinkommen-arbeitskosten.html -->
         <div class="wealth median-income"></div>
       </div>
@@ -63,23 +49,22 @@
       <div name="bezos" class="wealth-wrapper bezos">
         <div id="bezos" class="wealth ruler">
           <h2 class="wealth-title">19 Milliarden Fr. (Ernesto Bertarelli)</h2>
-          <!-- https://www.bloomberg.com/billionaires/profiles/ernesto-bertarelli/ -->
           <div class="counter" id="bezos-counter"></div>
           <div class="key">
             <span>20 Millionen Fr.</span>
           </div>
 
           <div class="text-infobox infobox first">
-              <div class="title"><p>Ernesto Bertarelli ist ein schweizer Unternehmer und Milliardär.</p><p>Er ist so reich, dass es fast unvorstellbar ist.</p></div>
+              <div class="title"><p><a href="https://en.wikipedia.org/wiki/Ernesto_Bertarelli" target="_blank">Ernesto Bertarelli</a> ist ein schweizer Unternehmer und Milliardär.</p><p>Er besitzt (beinahe) unvorstellbare <a href="https://www.bloomberg.com/billionaires/profiles/ernesto-bertarelli/" target="_blank">19 Milliarden.</a></p></div>
           </div>
 
           <div class="text-infobox infobox">
-            <div class="title">Wir sehen selten die Ungleichheit auf einer massgetreuen Skala. Darum <a href="https://www.republik.ch/2021/09/13/ihr-persoenlicher-platz-im-reichtumsranking" target="_blank">unterschätzen wir auch oft</a>, wie viel Geld die reichsten Menschen besitzen.</div>
+            <div class="title">Wir sehen die Ungleichheit von Vermögenselten auf einer massgetreuen Skala. Darum <a href="https://www.republik.ch/2021/09/13/ihr-persoenlicher-platz-im-reichtumsranking" target="_blank">unterschätzen wir auch oft</a>, wie viel Geld die reichsten Menschen besitzen.</div>
           </div>
 
           <div class="text-infobox infobox">
             <div id="bezos-counter-start" class="title">
-              <p>Lol, just kidding, we're about a third of the way. Keep scrolling though, there's more to see.</p>
+              <p>Jede 160 Pixel die du scrollst sind 20 Millionen... und wir sind erst etwa bei einem viertel angelangt.</p>
             </div>
           </div>
 
@@ -90,32 +75,30 @@
 
           <div class="infobox infobox-half lifetime">
             <div class="title-square-wrapper">
-              <div class="title">Typischer (Median) Lohn in der Schweiz über 40 Jahre (2.7 Millionen Fr.)</div>
-              <!-- https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/medienmitteilungen.assetdetail.11927344.html -->
+              <div class="title">Alles Geld, das du je verdienen wirst.</div>
+              <em><a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/medienmitteilungen.assetdetail.11927344.html", target="_blank">(Median) Lohn</a> in der Schweiz (40 Jahre, 2.7 Millionen Fr.)</em>
+              <!--  -->
               <div class="square"></div>
             </div>
           </div>
 
           <div class="infobox infobox-half healthcare">
             <div class="title-square-wrapper">
-              <div class="title">Jahresprämie Krankenkasse vierköpfige Familie</div>
-              <!-- https://www.workzeitung.ch/2019/11/familien-zahlen-mehr-krankenkasse-als-steuern/ -->
+              <div class="title"><a href="https://www.workzeitung.ch/2019/11/familien-zahlen-mehr-krankenkasse-als-steuern/", target="_blank">Jahresprämie</a> Krankenkasse vierköpfige Familie</div>
               <div class="square"></div>
             </div>
           </div>
 
-          <div class="infobox infobox-half amazon-year">
+          <div class="infobox infobox-half migros-year">
             <div class="title-square-wrapper">
-              <div class="title">Jahreslohn Kassierer Migros</div>
-              <!-- https://www.jobs.ch/de/lohn/?canton=ch&term=kassierer -->
+              <div class="title"><a href="https://www.jobs.ch/de/lohn/?canton=ch&term=kassierer", target="_blank">Jahreslohn</a> Kassierer:in Migros</div>
               <div class="square"></div>
             </div>
           </div>
 
           <div class="infobox infobox-half year-veteran">
             <div class="square shadow">
-              <div class="title">Jährlicher Sozialhilfebetrug Schweiz (172 Millionen Fr.)</div>
-                <!-- https://www.swissinfo.ch/ger/intensivere-jagd-auf-missbraeuche-im-sozialbereich/6068000 -->
+              <div class="title">Schätzung jährlicher <a href="https://www.swissinfo.ch/ger/intensivere-jagd-auf-missbraeuche-im-sozialbereich/6068000", target="_blank"> Sozialhilfemissbrauch</a> Schweiz <em>172 Millionen Fr.</em></div>
                 <!-- https://www.bfs.admin.ch/bfs/de/home/statistiken/soziale-sicherheit/sozialhilfe/ausgaben-sozialhilfe-weiteren-sinn.html -->
                 <!-- 8.6 Milliarden * 2% -->
             </div>
@@ -123,42 +106,40 @@
 
           <div class="infobox infobox-half text-infobox">
             <div class="title">
-              <p>Sogar das Geld von sehr reichen Leuten wird durch das immense Vermögen der reichsten 0.0001% in den Schatten gestellt.</p>
+              <p>Selbst das Vermögen sehr reicher Leute wird durch den immensen Reichtum der obersten 0.0001% in den Schatten gestellt.</p>
             </div>
           </div>
 
           <div class="infobox infobox-quarter celebrities">
             <div class="column-infobox">
-              <div class="sub-infobox goldman">
-                <div class="title">Credit Suisse CEO Thomas Gottstein&#x0a;Jahresgehalt (8.3 Millionen Fr.)</div>
-                <!-- https://www.swissinfo.ch/ger/cs-chef-gottstein-verdient-2020-insgesamt-8-3-millionen/46458108 -->
+              <div class="sub-infobox credit">
+                <div class="title">Jahresgehalt <a href="https://www.swissinfo.ch/ger/cs-chef-gottstein-verdient-2020-insgesamt-8-3-millionen/46458108", target="_blank">Credit Suisse CEO</a></div><em>Thomas Gottstein, 8.3 Millionen Fr.</em>
                 <div class="square shadow"></div>
               </div>
 
             </div>
-            <div class="sub-infobox beyonce">
-              <div class="title">Vermögen von Roger Federer (400 Millionen Fr.)</div>
+            <div class="sub-infobox federer">
+              <div class="title"><a href="https://de.statista.com/statistik/daten/studie/1133624/umfrage/roger-federer-einkommen-und-vermoegen/", target="_blank">Vermögen</a> Roger Federer</div><em><a href="https://www.ispo.com/people/forbes-ranking-roger-federer-sportler-mit-dem-hoechsten-gehalt-2020", target="_blank">bestbezahlter Sportler der Welt</a> (415 Millionen Fr. Vermögen)</em>
               <div class="square shadow"></div>
             </div>
 
-            <div class="sub-infobox tim-cook">
-              <div class="title">Wealth of Apple CEO Tim Cook ($625 million)</div>
+            <div class="sub-infobox bobo">
+              <div class="title"><a href="https://www.vermoegenmagazin.de/dj-bobo-vermoegen/" target="_blank">Vermögen</a> DJ Bobo</div><em>erfolgreichster Sänger der Schweiz (26 Millionen Fr. Vermögen)</em>
               <div class="square shadow"></div>
             </div>
 
             <div class="sub-infobox doctor small">
-              <div class="title">Einkommen Fachärztin über 40 Jahre (8.8 Millionen Fr.)</div>
-              <!-- https://www.bag.admin.ch/bag/de/home/das-bag/aktuell/news/news-29-10-2018.html -->
+              <div class="title">Lebenslanges <a href="https://www.bag.admin.ch/bag/de/home/das-bag/aktuell/news/news-29-10-2018.html", target="_blank">Einkommen</a> Fachärztin</div><em>40 Jahre (8.8 Millionen Fr.)</em>
               <div class="square shadow"></div>
             </div>
 
             <div class="sub-infobox lawyer small">
-              <div class="title">Einkommen Anwalt über 40 Jahre (6.4 Millionen Fr.)</div>
+              <div class="title">Lebenslanges <a href="https://www.tagesanzeiger.ch/schweiz/standard/aerzte-verdienen-67-franken-in-der-stunde/story/21511388" target="_blank">Einkommen</a>Anwält:in</div><em>40 Jahre (6.4 Millionen Fr.)</em>
               <div class="square shadow"></div>
             </div>
 
             <div class="sub-infobox hedgefund">
-              <div class="title">Einkommen Bundesrätin über 40 Jahre (18.2 Millionen Fr.)</div>
+              <div class="title">Lebenslanges <a href="https://www.admin.ch/gov/de/start/bundesrat/aufgaben-des-bundesrates/von-der-wahl-bis-zum-ruecktritt.html" target="_blank">Einkommen</a> Bundesrät:in</div><em>40 Jahre (18.2 Millionen Fr.)</em>
               <div class="square shadow"></div>
             </div>
 
@@ -178,380 +159,8 @@
 
       </div>
     </div>
-
-    <div id="four-hundred" class="wealth-wrapper four-hundred">
-      <div class="wealth ruler">
-        <h2 class="wealth-title">400 richest Americans ($3.2 trillion)</h2>
-        <div class="counter" id="four-hundred-counter"></div>
-        <div class="key">
-          <span>$80 million</span>
-        </div>
-
-        <div class="infobox infobox text-infobox intro">
-          <div class="title">
-            Jeff Bezos may be insanely rich, but it is a drop in the ocean compared to the combined wealth of his peers. The 400 richest Americans own about $3.2 trillion, which is more than the bottom 60% of Americans.
-          </div>
-        </div>
-
-        <div id="four-hundred-counter-start" class="people-wrapper-outer four-hundred-people infobox infobox-close">
-          <div class="people-wrapper center-sticky">
-            <div class="people">
-              <div class="people-label bubble">400 people</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="people-wrapper-outer sixty-percent-people infobox infobox-close">
-          <div id="sixty-percent" class="people-wrapper center-sticky">
-            <div class="people-label bubble">Bottom 60% <div class="people-sub-label">(Scroll Down)</div></div>
-            <div id="sixty-percent-indicator" class="percent">0.0%</div>
-          </div>
-        </div>
-
-        <div class="infobox infobox text-infobox intro">
-          <div class="title">
-            <p>A trillion dollars is such a large figure, that you might as well say "eleventy gajillion zillion dollars."  So in this section, we will try to understand the scale of this figure by looking at what could be accomplished with various chunks of this wealth.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            Some will argue that using this wealth for public benefit is not possible, because it's "tied up" in stocks, and therefore inaccessible. <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/THE_PAPER_BILLIONAIRE.md" target="_blank">This is just not true</a>.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>As we proceed, try to keep in mind: all of this wealth is controlled by a group so small, that they could fit on a single 747 airplane&#8212;with 260 seats left over.</p>
-          </div>
-        </div>
-
-        <div class="plane-wrapper-outer infobox infobox-close">
-          <div class="plane-wrapper center-sticky">
-            <div class="plane">
-              <img src="img/plane.png" />
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-half">
-          <h2 class="title what-could-we-do">What could we do with under 10% of this money?</h2>
-        </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart six-percent">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">6%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Vaccinate every human on earth against coronavirus</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Based on the <a href="https://www.washingtonpost.com/world/eu-coronavirus-vaccines-cheaper-than-united-states/2020/12/18/06677e34-4139-11eb-b58b-1623f6267960_story.html">cost of vaccines</a> and the <a href="https://www.who.int/docs/default-source/coronaviruse/act-accelerator/covax/costs-of-covid-19-vaccine-delivery-in-92amc_08.02.21.pdf" target="_blank">cost of delivery</a>, it would take around <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/COST_OF_VACCINATION.md" target="_blank">$200 billion</a> to vaccinate every person on earth, which is about 6% of the wealth currently controlled by 400 Americans. After paying for this vaccination program, these individuals would still be $40 billion richer than they were before the pandemic.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Even setting aside the desperate humanitarian need for a global vaccination, there is still a strong self-interested argument that wealthy countries should do it: the longer covid circulates in the world, the more chance of a <a href="https://www.newscientist.com/article/mg24933201-800-vaccine-nationalism-will-leave-everyone-more-at-risk-of-coronavirus/" target="_blank">vaccine resistant variant</a> emerging, and undoing all the vaccine progress we've already made.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>The World Health Organization is currently organizing a global vaccine donation program which aims to vaccinate <a href="https://www.who.int/initiatives/act-accelerator/covax" target="_blank">about 20%</a> of residents in poor countries by the end of 2021, and even that approach has <a href="https://www.washingtonpost.com/world/2021/04/01/covax-healthcare-workers-funding/" target="_blank">substantial funding shortfalls</a>.</p>
-          </div>
-        </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart three-percent">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">3%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Permanently eradicate malaria</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Malaria is one of the worst infectious diseases ever visited on mankind, possibly killing more people than any other infectious disease in history. In the 20th century alone, malaria killed more people than the Black Death.</p>
-          </div>
-        </div>
-
-        <div class="infobox infobox-quarter">
-          <div class="infectious">
-            <div class="malaria-bar">
-              <div class="square shadow">
-                <div class="title">Annual Malaria deaths<br> (409,000)</div>
-              </div>
-            </div>
-            <div class="ebola-bar"><div class="title">Ebola deaths in <strong>all of human history</strong> combined (about 15,000)</div>
-              <div class="square shadow"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            These figures are even more shocking when you learn that malaria overwhelmingly kills children; around two-thirds of malaria deaths each year are children under five. That's around 275,000 children.
-          </div>
-        </div>
-
-        <div class="infobox infobox-close malaria flex">
-          <div id="babies-wrapper" class="babies-wrapper center-sticky">
-            <div id="babies" class="babies">
-              <div class="scroll-indicator bubble">Children under five killed by malaria each year <div class="people-sub-label">(Scroll Down)</div></div>
-              <span id="baby-counter" class="baby-counter bubble">10</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p><em>All</em> of these deaths are preventable. Treating and preventing malaria is a well understood science, universally practiced in the developed world.</p>
-            <p><a href="https://www.ncbi.nlm.nih.gov/pubmed/25551454" target="_blank">It is estimated</a> that malaria could be globally eradicated by 2030 for a cost around $1.84 per at-risk person per year, or around $100 billion total. This would be around 3% of the wealth currently possessed by the 400 richest Americans.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Around 800 children will die of malaria today. A small group of super rich people could stop it for a sum of money so small that they would likely never even notice its absence. But they choose not to.</p>
-          </div>
-        </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart two-point-five-percent">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">2.5%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Wipe out all the delinquent medical debt in America</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Americans have about <a href="https://www.pbs.org/newshour/health/millennials-rack-up-the-most-medical-debt-and-more-frequently" target="_blank">$81 billion</a> in medical debt that is sufficiently past due as to appear on their credit report. These are generally small debts, with a median value of <a href="https://files.consumerfinance.gov/f/201412_cfpb_reports_consumer-credit-medical-and-non-medical-collections.pdf" target="_blank">$207 dollars</a> per person.</p>
-            <p> These debts hinder the credit of over 50 million Americans, and do long term damage to their housing, employment, and borrowing options. The cost of repaying this debt dollar-for-dollar would be around 2.5% of the wealth controlled by 400 Americans.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            This situation looks even better once you understand that delinquent debt is often purchased for as <a href="https://www.ksl.com/article/46455844/charity-buys-and-erases-past-due-medical-debt" target="_blank">little as 1%</a> of its face value. This would make the total cost of eliminating all delinquent medical debt around $810 million. In 2020, the richest 400 Americans accrued this amount roughly every 29 hours.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="chart medical-chart">
-            <img src="img/medical.svg" />
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            Note that this figure includes only <em>delinquent</em> medical debt, not all medical debt. The value of all medical debt in America is not publicly known, but probably in the neighborhood of <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/VALUE_OF_MEDICAL_DEBT.md" target="_blank">$300 billion</a>, or 9% of the wealth controlled by 400 Americans.
-          </div>
-        </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart five-percent five-point-three-percent">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">5.3%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Lift every American out of poverty.</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            As of 2021, around 38 million Americans lived in poverty. If Americans in poverty were a state, they would be second largest by population. There are more Americans living in poverty than the entire population of Canada.
-          </div>
-        </div>
-
-        <div class="infobox infobox-close">
-          <div class="chart">
-            <h3>Population of US States compared to poverty, 2021</h3>
-            <img src="img/poverty.svg">
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p><a href="https://www.census.gov/content/dam/Census/library/publications/2019/demo/p60-266.pdf" target="_blank">Every single person</a> in America could be lifted above the poverty line with a one-time cash subsidy of around $10,000 per impoverished family (and about $7,000 for impoverished individuals). The total cost would be $170 billion, a little over 5% of the wealth currently controlled by 400 individuals.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>It may seem counter intuitive that a one-time subsidy could have any lasting impact on chronic poverty. But one of the surprising truths about poverty is that it's fluid. Americans move in and out of poverty many times throughout their lives, and one good year can have a massive and long lasting effect.</p>
-
-              <p>A wealth of data now supports the idea that <a href="https://www.givedirectly.org/research-on-cash-transfers/" target="_blank">one-time cash transfers can permanently transform a local economy.</a> Given a sudden windfall, people invest in their future. They go back to school, obtain transportation, pay for childcare, pay down debilitating debts, and do any number of things to improve their career prospects and financial future.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>In the US, for all of the people that escape poverty in any given year, <a href="https://poverty.ucdavis.edu/sites/main/files/file-attachments/stevens_1994aerpp.pdf" target="_blank">about half stay out of poverty for at least five years afterwards</a>. About a third are still out of poverty ten years later.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>This would not be a permanent fix for all Americans. Surely, some would quickly return to poverty, and others face debts so large that the subsidy would make little difference. But for tens of millions of Americans, this would be a life changing event. It would be a generation defining social program that reshapes our economy for decades to come.</p>
-          </div>
-       </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart seven-point-five-percent tiny">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">7.5%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Provide clean drinking water and toilet access to every human on earth.</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Around <a href="https://www.who.int/news-room/detail/12-07-2017-2-1-billion-people-lack-safe-drinking-water-at-home-more-than-twice-as-many-lack-safe-sanitation" target="_blank">844 million people</a> have no access to clean water of any kind. About the same number have no access to a toilet or latrine of any kind, and therefore defecate in the open.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="worldchart">
-            <img src="img/no_clean_water.png"/>
-            <h2 class="description">No clean water</h2>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Contaminated water is a major source of disease, including cholera, dysentery, and typhoid. <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water">It is estimated</a> that contaminated water kills about 829,000 people every year, making it one of the world's biggest killers. The cost to provide clean water and waste disposal for everyone on earth would be about <a href="https://www.who.int/water_sanitation_health/watandmacr3.pdf" target="_blank">$240 billion</a>, or 7.5% of the wealth controlled by the 400 richest Americans.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            OK, now that we've established the scale of inequality in the United States, let's dare to dream a little bigger.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <h2 class="title what-could-we-do">What could we do with under 40% of this money?</h2>
-        </div>
-
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart forty-percent tiny">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">39.6%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Provide paid maternity and paternity leave to every American for the next 100 years</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>Paid maternity and paternity leave are estimated to cost around <a href="https://www.americanactionforum.org/insight/the-fiscal-cost-of-a-paid-parental-leave-program-by-state/" target="_blank">$12 billion</a> per year. This is 0.39% of the wealth controlled by 400 Americans. It is 5% of the wealth they accrued in 2020 alone.</p>
-            <p>If they repeated this payment every year for the next 100 years, it would equal 39% of the wealth they control today.</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>This is a more complex program to estimate than the others considered on this page, because the expense would be continuous, rather than one-time, and the cost is highly variable based on the size of the benefit provided. Still, using the <a href="https://www.manning-napier.com/insights/blogs/insights-for-non-profits/endowments-and-foundations-a-closer-look-at-spending-rules" target="_blank">5% endowment payout rule</a> the super wealthy should be able to finance a family leave program about 12 times more generous than the one contemplated here <u>forever</u> and still get richer into perpetuity, even accounting for inflation.</p>
-          </div>
-        </div>
-
-        <div class="infobox infobox-quarter flex">
-          <div class="piechart forty-percent tiny">
-            <svg class="piechart-outer" viewBox="0 0 32 32">
-              <circle class="piechart-inner" r="16" cx="16" cy="16" />
-            </svg>
-            <span class="label">40%</span>
-            <div class="dotted-line"></div>
-            <div class="description">
-              <h2>Give $10,000 to every American household</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            There are about 128 million households in the United States. To give each one $10,000 would cost $1.28 trillion, or about 40% of the wealth controlled by 400 Americans.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            <p>As the coronavirus raged through America in 2020, working people were frequently presented with a seemingly impossible choice between death by premature reopening and an economic depression brought about through a continued quarantine. Unspoken in this false choice was the supposition that Americans could not pay their living expenses without either work or unsustainable government deficit spending&mdash;where else could the money have possibly come from?</p>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <h2 class="title what-could-we-do">What could we do with 60% of this money?</h2>
-        </div>
-
-        <div class="ninety-wrapper-outer infobox infobox-close">
-          <div class="ninety-wrapper center-sticky">
-            <div class="ninety">
-              <img src="img/sixty_percent.svg" />
-            </div>
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            These programs combined would completely transform our world. By redistributing this wealth, millions of lives would be saved. Billions would be rescued from poverty and disease. By inconveniencing <em>just 400 people</em>, the entire human race could advance to a new, unprecedented level of development.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close all-of-them">
-          <div class="title">
-            And <em>all</em> of them would still be billionaires afterwards.
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-close">
-          <div class="title">
-            Is it really so radical to suggest that this is the right thing to do? Given the choice between millions of deaths, and slightly shrinking the fortunes of a few super rich people, how could anyone conclude that the death of millions is preferable?
-          </div>
-        </div>
-
-        <div class="infobox text-infobox infobox-half">
-          <h2 class="title what-could-we-do">We cannot accept this level of inequality any longer.</h2>
-        </div>
-
-      </div>
-    </div>
-  </div>
   <div class="footer">
-    <div>Updated April 3, 2021. <a target="_blank" href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/README.md">Über diese Seite</a></div>
+    <div>Aktualisiert am 3. Dezember, 2021.</div>
   </div>
 
 </div>

@@ -17,6 +17,10 @@ h1 {
   width: 100%;
   margin-top: 100px;
 }
+
+.title-screen h2 {
+    text-align: center;
+}
 .scroll-this-way {
   align-self: flex-end;
   width: 360px;
